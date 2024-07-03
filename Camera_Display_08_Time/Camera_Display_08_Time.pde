@@ -110,6 +110,7 @@ void draw() {
         
         // ここでディレイのフレーム数を計算する
         int delay = (bufferSize * y) / cameraImage.height;
+        //int delay = (int)random(bufferSize - 1); // これも試してみよう
 
         // 独自の関数を呼び出してピクセルの配列を取得する
         color[] inPixels = delayedPixels(delay);
