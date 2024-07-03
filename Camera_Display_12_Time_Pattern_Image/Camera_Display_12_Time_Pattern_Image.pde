@@ -13,7 +13,7 @@ PImage outImage; // 出力の画像
 PImage patternImage; // パターンの画像
 color[] patternPixels; // パターンのピクセル 
 
-int cameraNumber = 1; // 使うカメラのインデックス（順番）
+int cameraNumber = 0; // 使うカメラのインデックス（順番）
 
 float fps = 15; // カメラのフレームレート
 
